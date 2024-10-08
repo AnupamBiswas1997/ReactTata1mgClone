@@ -1,0 +1,76 @@
+#SignupPage{
+    margin: 2vw;
+    padding: 5vw 2.5vw 5vw 2.5vw;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+
+#SignupForm form{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+#signupUsername{
+    width: 25vw;
+    font-size: 1.5vw;
+    border-bottom: 1px solid #9f3235;
+}
+
+#signupUsername:focus{
+    outline: none;
+}
+
+#signupEmail{
+    width: 25vw;
+    font-size: 1.5vw;
+    border-bottom: 1px solid #9f3235;
+}
+
+#signupEmail:focus{
+    outline: none;
+}
+
+#signupPassword{
+    width: 25vw;
+    font-size: 1.5vw;
+    border-bottom: 1px solid #9f3235;
+    margin-bottom: 2vw;
+}
+
+#signupPassword:focus{
+    outline: none;
+}
+
+#SignupSubmit{
+    width: 25vw;
+    border: none;
+    text-decoration: none;
+    color: white;
+    background-color: #fe705c;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+}
+
+#SignupForm{
+    display: flex;
+    flex-direction: column;
+}
+
+#SignupBoldText{
+    font-size: 2vw;
+    font-weight: 700;
+    padding-bottom: .8vw;
+}
+
+#SignupsmallText{
+    font-size: 0.8vw;
+    font-weight: 400;
+    padding-bottom: 3vw;
+}

@@ -1,0 +1,66 @@
+#LoginPage{
+    margin: 2vw;
+    padding: 5vw 2.5vw 5vw 2.5vw;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+
+#LoginForm form{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+#loginUsernameEmail{
+    width: 25vw;
+    font-size: 1.5vw;
+    border-bottom: 1px solid #9f3235;
+}
+
+#loginUsernameEmail:focus{
+    outline: none;
+}
+
+#loginPassword{
+    width: 25vw;
+    font-size: 1.5vw;
+    border-bottom: 1px solid #9f3235;
+    margin-bottom: 3vw;
+}
+
+#loginPassword:focus{
+    outline: none;
+}
+
+#LoginSubmit{
+    width: 25vw;
+    border: none;
+    text-decoration: none;
+    color: white;
+    background-color: #fe705c;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+}
+
+#LoginForm{
+    display: flex;
+    flex-direction: column;
+}
+
+#LoginBoldText{
+    font-size: 2vw;
+    font-weight: 700;
+    padding-bottom: .8vw;
+}
+
+#LoginsmallText{
+    font-size: 0.8vw;
+    font-weight: 400;
+    padding-bottom: 5vw;
+}

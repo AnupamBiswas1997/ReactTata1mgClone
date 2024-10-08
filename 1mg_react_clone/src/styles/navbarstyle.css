@@ -1,0 +1,86 @@
+#Navbar{
+    display: flex;
+    width: 100%;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+    padding-top: 1vw;
+    padding-bottom: 1.5vw;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#Nav1stSeg{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    gap: 5px;
+}
+
+#Nav1stSeg img{
+    width: 100%;
+}
+
+#Nav2ndSeg{
+    display: flex;
+    gap: 1.3vw;
+}
+
+
+#navtext1{
+    display: flex;
+    color: #4f433b;
+    font-size: 1vw;
+    font-weight: 700;
+    gap: 0.5vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#navtext1:hover{
+    color: #ee7567;
+}
+
+#navtext2 button{
+    color: white;
+    background-color: #fc6e64;
+    font-size: 0.7vw;
+    font-weight: 700;
+    padding: 0.3vw;
+}
+
+#navtext3{
+    display: flex;
+    align-items: center;
+    color: #da7a77;
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+#loginSignuptext{
+    color: #7f7f7f;
+    font-size: 1.1vw;
+}
+
+.NormalOfferTextStyle{
+    color: #4c4c4c;
+    font-size: 1.2vw;
+}
+
+#loginSignuptext button{
+    width: 100%;
+    text-decoration: None;
+    border: none;
+    color: #7f7f7f;
+    font-size: 1.1vw;
+}
+
+.NavUserDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-decoration: None;
+    border: none;
+    color: #7f7f7f;
+    font-size: 1.2vw;
+}
